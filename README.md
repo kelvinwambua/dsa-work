@@ -22,6 +22,7 @@ def sum_of_all_numbers(arr):
 print("The sum of all numbers in the array is:", sum_of_all_numbers(testArr))
 ```
 <h3>Explanation</h3>
+
 - We define an list of numbers
 - Define the function with the argument passing the list
 - Set our total to 0 which we will update as we go on
@@ -67,6 +68,7 @@ print("The factorial is",factorial_using_loop(initialNumber))
 
 
 <h3>Explanation</h3>
+
 - We set the initial number to 5 which we will use to test if the function works
 - We define a function with an argument num
 - we set the total to num since factorials are <strong> n*(n-1)*(n-2)..... *1</strong> this the inital number is the total
@@ -84,6 +86,7 @@ print(reverse_a_string(initialString))
 ```
 
 <h3>Explanation</h3>
+
 - So we declare a string
 - We define a function that takes string as an argument
 - A string is basically a listof characters so we define an empty array which we will later add the list of characters
@@ -105,6 +108,7 @@ print("The factorial is", factorial_using_recursion(initialNumber))
 ```
 
 <h3>Explantation</h3>
+
 - We start by defining an initial number: <strong>initialNumber = 5 </strong>. This is the number whose factorial we want to calculate.
 - We then define a **recursive function** called factorial_using_recursion(num) that calculates the factorial of a given number num.
 - Inside the function:
@@ -127,6 +131,7 @@ print("The sum of the digits is", sum_of_digits(number))
 ```
 
 <h3>Explanation</h3>
+
 - We define a  number
 - We define a function taking the argument  num
 - We set the total to 0 and we will add to it as we loop
