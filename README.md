@@ -31,7 +31,7 @@ print("The sum of all numbers in the array is:", sum_of_all_numbers(testArr))
 - We then return the total
 - We have a print statement to return the data to the user
 
-### Question 2 : Number is Even or Odd
+## Question 2 : Number is Even or Odd
 
 A number is even if divisible by 2 
 ```python
@@ -54,7 +54,7 @@ print("The number is",number_is_even_or_odd(number2))
 - If true then the number is divisible by 2 and is thus even
 - Otherwise it is not divisible by 2 and is thus odd
 
-### Question 3: Factorial Using a Loop
+## Question 3: Factorial Using a Loop
 
 ```python
 initialNumber = 5
@@ -74,7 +74,7 @@ print("The factorial is",factorial_using_loop(initialNumber))
 - we set the total to num since factorials are <strong> n*(n-1)*(n-2)..... *1</strong> this the inital number is the total
 - We loop from all numbers from 1  to the num while adding the multiplication of it and the total
 
-### Question 4:  Reverse a String 
+## Question 4:  Reverse a String 
 ```python
 initialString = "IloveDSA"
 def reverse_a_string(string):
@@ -94,7 +94,7 @@ print(reverse_a_string(initialString))
 - In Python the first arguement is the start point of the loop and since we have 0 based indexing we have to minus 1 to get the last element of the list , the next argument it takes is the stop and since we want it to go all the way to 0 we set the stop value to -1 to ensure we access all the elements. After that we have the steps we want the loop to move through so we will -1 to go through each index of the list
 - We then convert and join the array to the string and we print out the result
 
-### Question 5: Factorial Recursive
+## Question 5: Factorial Recursive
 
 ```python
 initialNumber = 5
@@ -117,7 +117,7 @@ print("The factorial is", factorial_using_recursion(initialNumber))
 - We print the result 
 
 
-### Question 6: Sum of Digits 
+## Question 6: Sum of Digits 
 
 ```python
 number = 2323232323
