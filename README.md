@@ -23,6 +23,7 @@ def sum_of_all_numbers(list):  # Define a function that takes a list as input
 print("The sum of all numbers in the array is:", sum_of_all_numbers(testList))  # Call the function and print the result
 ```
 <h3>Explanation</h3>
+
 - We define an list of numbers
 - Define the function with the argument passing the list
 - Set our total to 0 which we will update as we go on
@@ -72,12 +73,13 @@ print("The factorial of", initialNumber, "is", factorial_using_loop(initialNumbe
 
 
 <h3>Explanation</h3>
+
 - We set the initial number to 5 which we will use to test if the function works
 - We define a function with an argument num
 - we set the total to 1 since factorials are <strong> n*(n-1)*(n-2)..... *1</strong> t
 - We loop from all numbers from 1  to num while multiplying the current total by the number
 
-### Question 4:  Reverse a String 
+## Question 4:  Reverse a String 
 ```python
 initialString = "IloveDSA"  # Define the string we want to reverse
 
@@ -91,6 +93,7 @@ print(reverse_a_string(initialString))  # Call the function and print the revers
 ```
 
 <h3>Explanation</h3>
+
 - So we declare a string
 - We define a function that takes string as an argument
 - A string is basically a listof characters so we define an empty array which we will later add the list of characters
@@ -98,7 +101,7 @@ print(reverse_a_string(initialString))  # Call the function and print the revers
 - In Python the first arguement is the start point of the loop and since we have 0 based indexing we have to minus 1 to get the last element of the list , the next argument it takes is the stop and since we want it to go all the way to 0 we set the stop value to -1 to ensure we access all the elements. After that we have the steps we want the loop to move through so we will -1 to go through each index of the list
 - We then convert and join the array to the string and we print out the result
 
-### Question 5: Factorial Recursive
+## Question 5: Factorial Recursive
 
 ```python
 initialNumber = 5  # Define the number for which we want to calculate factorial
@@ -111,6 +114,7 @@ print("The factorial is", factorial_using_recursion(initialNumber))  # Calculate
 ```
 
 <h3>Explantation</h3>
+
 - We start by defining an initial number: <strong>initialNumber = 5 </strong>. This is the number whose factorial we want to calculate.
 - We then define a **recursive function** called factorial_using_recursion(num) that calculates the factorial of a given number num.
 - Inside the function:
@@ -119,7 +123,7 @@ print("The factorial is", factorial_using_recursion(initialNumber))  # Calculate
 - We print the result 
 
 
-### Question 6: Sum of Digits 
+## Question 6: Sum of Digits 
 
 ```python
 number = 2323232323  # The number whose digits we want to sum
@@ -135,6 +139,7 @@ print("The sum of the digits is", sum_of_digits(number))  # Display the result
 ```
 
 <h3>Explanation</h3>
+
 - We define a  number
 - We define a function taking the argument  num
 - We set the total to 0 and we will add to it as we loop
